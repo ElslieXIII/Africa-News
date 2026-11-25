@@ -1,0 +1,661 @@
+{
+  "_note": "All sources, companies, people and stories in this file are fictional sample data for the Africa News demo.",
+  "collections": {
+    "sources": {
+      "savanna-ledger": {
+        "kind": "website",
+        "name": "Savanna Ledger",
+        "url": "https://example.com/savanna-ledger",
+        "color": "#1F5C4A",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      },
+      "baobab-tech": {
+        "kind": "website",
+        "name": "Baobab Tech Report",
+        "url": "https://example.com/baobab-tech",
+        "color": "#0F5E73",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      },
+      "kopje-capital": {
+        "kind": "website",
+        "name": "Kopje Capital Wire",
+        "url": "https://example.com/kopje-capital",
+        "color": "#4B3A78",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      },
+      "nl-harbour-rand": {
+        "kind": "newsletter",
+        "name": "Harbour & Rand",
+        "about": "Southern African markets, daily",
+        "senders": [
+          "hello@harbour-rand.example"
+        ],
+        "color": "#8C4A12",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      },
+      "nl-delta-deals": {
+        "kind": "newsletter",
+        "name": "Delta Deals Weekly",
+        "about": "PE, private credit and VC deals",
+        "senders": [
+          "deals@delta.example"
+        ],
+        "color": "#6E2C2C",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      },
+      "nl-sahel-briefing": {
+        "kind": "newsletter",
+        "name": "Sahel Briefing",
+        "about": "West African policy and economy",
+        "senders": [
+          "briefing@sahel.example"
+        ],
+        "color": "#2F4858",
+        "status": "active",
+        "addedAt": {
+          "daysAgo": 30,
+          "hoursAgo": 0
+        }
+      }
+    },
+    "articles": {
+      "sl-kilima-pay-series-a": {
+        "sourceId": "savanna-ledger",
+        "sourceName": "Savanna Ledger",
+        "title": "Kilima Pay raises $18m Series A to expand merchant payments into Tanzania",
+        "url": "https://example.com/savanna-ledger/kilima-pay-series-a",
+        "publishedAt": {
+          "daysAgo": 0,
+          "hoursAgo": 3
+        },
+        "tag": "Venture",
+        "country": "Kenya",
+        "summary": "Fictional Kenyan payments start-up Kilima Pay closes an $18m Series A to enter Tanzania.",
+        "brief": {
+          "summary": "Kilima Pay, a (fictional) Nairobi-based merchant payments company, has closed an $18m Series A led by Mosi Ventures, with two development finance investors joining.\n\nThe company will use the money to launch in Tanzania early next year and to build a working-capital product for its 40,000 merchants.",
+          "numbers": [
+            "$18m Series A",
+            "40,000 active merchants",
+            "2 new markets planned within 18 months",
+            "Revenue up 2.4x year on year"
+          ],
+          "players": [
+            "Kilima Pay — payments start-up",
+            "Mosi Ventures — lead investor",
+            "Two DFIs — co-investors"
+          ],
+          "why": "Shows investors still backing payments businesses that can attach lending to transaction data.",
+          "basis": "full"
+        }
+      },
+      "sl-zuri-solar-debt": {
+        "sourceId": "savanna-ledger",
+        "sourceName": "Savanna Ledger",
+        "title": "Zuri Solar secures $25m local-currency debt for rooftop solar in Nigeria",
+        "url": "https://example.com/savanna-ledger/zuri-solar-debt",
+        "publishedAt": {
+          "daysAgo": 2,
+          "hoursAgo": 3
+        },
+        "tag": "Energy finance",
+        "country": "Nigeria",
+        "summary": "Fictional C&I solar developer Zuri Solar raises naira-denominated debt from a local bank consortium.",
+        "brief": {
+          "summary": "Zuri Solar has signed a $25m-equivalent naira debt facility with three Nigerian banks, backed by a partial guarantee from a development finance institution.\n\nThe facility funds about 60MW of rooftop systems for factories and shopping centres, priced in naira to remove currency risk for clients.",
+          "numbers": [
+            "$25m-equivalent naira facility",
+            "~60MW of rooftop capacity",
+            "50% partial credit guarantee",
+            "7-year tenor"
+          ],
+          "players": [
+            "Zuri Solar — developer",
+            "Three Nigerian banks — lenders",
+            "DFI guarantor — partial guarantee"
+          ],
+          "why": "Local-currency debt with a guarantee is becoming the template for distributed energy after naira volatility.",
+          "basis": "full"
+        }
+      },
+      "sl-cbk-sandbox": {
+        "sourceId": "savanna-ledger",
+        "sourceName": "Savanna Ledger",
+        "title": "Central bank widens regulatory sandbox to cover tokenised deposits",
+        "url": "https://example.com/savanna-ledger/cbk-sandbox",
+        "publishedAt": {
+          "daysAgo": 5,
+          "hoursAgo": 3
+        },
+        "tag": "Regulation",
+        "country": "Kenya",
+        "summary": "A central bank opens its sandbox to banks testing tokenised deposits for cross-border settlement.",
+        "brief": {
+          "summary": "The central bank said banks can now apply to test tokenised deposits in its sandbox, with cross-border trade settlement as the first use case.\n\nApplications close at the end of next quarter and pilots will be limited in value.",
+          "numbers": [
+            "12-month pilot window",
+            "Value cap per participant",
+            "First cohort of up to 6 banks"
+          ],
+          "players": [
+            "Central bank — regulator",
+            "Commercial banks — applicants"
+          ],
+          "why": "Gives banks a regulated route into on-chain settlement before stablecoin rules are final.",
+          "basis": "partial"
+        }
+      },
+      "bt-nyota-agri-seed": {
+        "sourceId": "baobab-tech",
+        "sourceName": "Baobab Tech Report",
+        "title": "Nyota Agri raises $3.2m seed to digitise smallholder input credit",
+        "url": "https://example.com/baobab-tech/nyota-agri-seed",
+        "publishedAt": {
+          "daysAgo": 1,
+          "hoursAgo": 3
+        },
+        "tag": "Agriculture",
+        "country": "Ghana",
+        "summary": "Fictional Ghanaian agritech Nyota Agri closes a $3.2m seed round.",
+        "brief": {
+          "summary": "Nyota Agri, which lends seeds and fertiliser to smallholder farmers against future harvests, has raised a $3.2m seed round.\n\nIt says repayment rates are above 95% across 22,000 farmers and plans to add Côte d'Ivoire next season.",
+          "numbers": [
+            "$3.2m seed",
+            "22,000 farmers",
+            "95%+ repayment rate",
+            "1 new country next season"
+          ],
+          "players": [
+            "Nyota Agri — agritech lender",
+            "Harmattan Fund — lead investor",
+            "Local cooperatives — distribution partners"
+          ],
+          "why": "Input credit tied to offtake is one of the few agri models showing repeatable unit economics.",
+          "basis": "full"
+        }
+      },
+      "bt-mosi-logistics": {
+        "sourceId": "baobab-tech",
+        "sourceName": "Baobab Tech Report",
+        "title": "Mosi Logistics buys Egyptian last-mile rival in all-share deal",
+        "url": "https://example.com/baobab-tech/mosi-logistics-acquisition",
+        "publishedAt": {
+          "daysAgo": 4,
+          "hoursAgo": 3
+        },
+        "tag": "M&A",
+        "country": "Egypt",
+        "summary": "Fictional logistics firm Mosi buys a Cairo last-mile operator in an all-share deal.",
+        "brief": {
+          "summary": "Mosi Logistics has agreed to buy a Cairo-based last-mile delivery company, paying entirely in shares.\n\nThe combined business will cover five North and East African cities and expects to break even within 18 months.",
+          "numbers": [
+            "All-share consideration",
+            "5 cities combined",
+            "Break-even target: 18 months"
+          ],
+          "players": [
+            "Mosi Logistics — acquirer",
+            "Cairo last-mile operator — target",
+            "Existing VC backers — rolling over"
+          ],
+          "why": "Consolidation is replacing new funding as the exit route for sub-scale African logistics start-ups.",
+          "basis": "full"
+        }
+      },
+      "bt-data-centre-lagos": {
+        "sourceId": "baobab-tech",
+        "sourceName": "Baobab Tech Report",
+        "title": "Operator breaks ground on 20MW data centre outside Lagos",
+        "url": "https://example.com/baobab-tech/lagos-data-centre",
+        "publishedAt": {
+          "daysAgo": 9,
+          "hoursAgo": 3
+        },
+        "tag": "Infrastructure",
+        "country": "Nigeria",
+        "summary": "A data centre operator starts building a 20MW facility, citing AI demand.",
+        "brief": {
+          "summary": "A pan-African data centre operator has started construction on a 20MW campus near Lagos, the first phase of a planned 60MW site.\n\nIt is financed with a mix of equity and a project loan, and the first halls are due to open in 2028.",
+          "numbers": [
+            "20MW first phase",
+            "60MW planned total",
+            "Opening 2028"
+          ],
+          "players": [
+            "Data centre operator — developer",
+            "Project lenders — debt providers"
+          ],
+          "why": "Data centres are attracting infrastructure capital that used to go mostly to power and telecoms towers.",
+          "basis": "full"
+        }
+      },
+      "kc-fund-close": {
+        "sourceId": "kopje-capital",
+        "sourceName": "Kopje Capital Wire",
+        "title": "Acacia Growth Partners holds $210m final close for second Africa fund",
+        "url": "https://example.com/kopje-capital/acacia-fund-ii",
+        "publishedAt": {
+          "daysAgo": 3,
+          "hoursAgo": 3
+        },
+        "tag": "Private equity",
+        "country": "Pan-African",
+        "summary": "Fictional mid-market PE firm Acacia Growth Partners closes Fund II at $210m.",
+        "brief": {
+          "summary": "Acacia Growth Partners has closed its second fund at $210m, above its $175m target, with roughly half the capital from African pension funds and insurers.\n\nThe fund will write $10m to $30m cheques into healthcare, consumer and business services.",
+          "numbers": [
+            "$210m final close",
+            "$175m target",
+            "~50% African LPs",
+            "$10–30m ticket size"
+          ],
+          "players": [
+            "Acacia Growth Partners — GP",
+            "African pension funds — LPs",
+            "DFIs — anchor LPs"
+          ],
+          "why": "A rising share of local institutional money is the main change in African fundraising this year.",
+          "basis": "full"
+        }
+      },
+      "kc-private-credit": {
+        "sourceId": "kopje-capital",
+        "sourceName": "Kopje Capital Wire",
+        "title": "Private credit fund lends $40m to West African school group",
+        "url": "https://example.com/kopje-capital/private-credit-schools",
+        "publishedAt": {
+          "daysAgo": 6,
+          "hoursAgo": 3
+        },
+        "tag": "Private credit",
+        "country": "Côte d'Ivoire",
+        "summary": "A private credit fund provides $40m of senior debt to a fictional private school group.",
+        "brief": {
+          "summary": "A pan-African private credit fund has provided $40m of senior secured debt to a private school group with campuses in Côte d'Ivoire and Senegal.\n\nThe money refinances bank loans and funds four new campuses.",
+          "numbers": [
+            "$40m senior secured debt",
+            "4 new campuses",
+            "2 countries"
+          ],
+          "players": [
+            "Private credit fund — lender",
+            "School group — borrower"
+          ],
+          "why": "Shows private credit moving into education, a sector banks have often avoided.",
+          "basis": "full"
+        }
+      },
+      "kc-exit-ipo": {
+        "sourceId": "kopje-capital",
+        "sourceName": "Kopje Capital Wire",
+        "title": "Consumer goods maker files for listing on regional exchange",
+        "url": "https://example.com/kopje-capital/consumer-ipo",
+        "publishedAt": {
+          "daysAgo": 11,
+          "hoursAgo": 3
+        },
+        "tag": "Capital markets",
+        "country": "Pan-African",
+        "summary": "A PE-backed consumer goods company files for an IPO, giving its sponsor a partial exit.",
+        "brief": {
+          "summary": "A PE-backed household goods manufacturer has filed to list on a regional stock exchange, with the sponsor selling part of its stake.\n\nPricing is expected next month.",
+          "numbers": [
+            "Partial sponsor exit",
+            "Listing expected next month"
+          ],
+          "players": [
+            "Consumer goods company — issuer",
+            "PE sponsor — selling shareholder",
+            "Regional exchange — venue"
+          ],
+          "why": "Public-market exits remain rare; a successful listing would be a useful signal for other sponsors.",
+          "basis": "full"
+        }
+      }
+    },
+    "newsletters": {
+      "nl-demo0001": {
+        "sourceId": "nl-harbour-rand",
+        "sourceName": "Harbour & Rand",
+        "subject": "Rand rallies on rate hopes",
+        "receivedAt": {
+          "daysAgo": 0,
+          "hoursAgo": 6
+        },
+        "tag": "Daily",
+        "summary": "A fictional daily on Southern African markets: the rand firms, a retailer's results and a port update.",
+        "highlights": [
+          "Rand firmed against the dollar",
+          "A retailer reported higher half-year sales",
+          "Port congestion eased after new equipment"
+        ],
+        "gmailUrl": "#demo-demo0001"
+      },
+      "nl-demo0002": {
+        "sourceId": "nl-delta-deals",
+        "sourceName": "Delta Deals Weekly",
+        "subject": "Dealmaker's log: five fund closes and a solar refinancing",
+        "receivedAt": {
+          "daysAgo": 1,
+          "hoursAgo": 10
+        },
+        "tag": "Deal log",
+        "summary": "A fictional weekly round-up of African PE, credit and VC deals.",
+        "highlights": [
+          "Acacia Growth Partners closed Fund II at $210m",
+          "Zuri Solar signed a $25m naira facility",
+          "Kilima Pay raised an $18m Series A"
+        ],
+        "gmailUrl": "#demo-demo0002"
+      },
+      "nl-demo0003": {
+        "sourceId": "nl-sahel-briefing",
+        "sourceName": "Sahel Briefing",
+        "subject": "Budget season and the eurobond question",
+        "receivedAt": {
+          "daysAgo": 3,
+          "hoursAgo": 8
+        },
+        "tag": "Weekly",
+        "summary": "A fictional weekly on West African policy, covering budgets and debt plans.",
+        "highlights": [
+          "Two governments presented budgets with lower deficits",
+          "A eurobond return is being discussed",
+          "Cocoa prices stayed high"
+        ],
+        "gmailUrl": "#demo-demo0003"
+      },
+      "nl-demo0004": {
+        "sourceId": "nl-harbour-rand",
+        "sourceName": "Harbour & Rand",
+        "subject": "Insurers turn to infrastructure",
+        "receivedAt": {
+          "daysAgo": 5,
+          "hoursAgo": 6
+        },
+        "tag": "Daily",
+        "summary": "A fictional daily: insurers raise infrastructure allocations and a telecom tie-up stalls.",
+        "highlights": [
+          "Insurers increased unlisted infrastructure allocations",
+          "A telecom merger hit regulatory delays"
+        ],
+        "gmailUrl": "#demo-demo0004"
+      },
+      "nl-demo0005": {
+        "sourceId": "nl-delta-deals",
+        "sourceName": "Delta Deals Weekly",
+        "subject": "Essay: why local LPs are changing African fundraising",
+        "receivedAt": {
+          "daysAgo": 8,
+          "hoursAgo": 9
+        },
+        "tag": "Essay",
+        "summary": "A fictional essay on the rising share of African pension and insurance money in private funds.",
+        "highlights": [
+          "Local LPs now provide a growing share of commitments",
+          "Currency-hedged share classes are spreading"
+        ],
+        "gmailUrl": "#demo-demo0005"
+      }
+    },
+    "folders": {
+      "f-pipeline": {
+        "name": "Pipeline ideas",
+        "createdAt": {
+          "daysAgo": 10,
+          "hoursAgo": 0
+        }
+      },
+      "f-energy": {
+        "name": "Energy finance",
+        "createdAt": {
+          "daysAgo": 10,
+          "hoursAgo": 0
+        }
+      }
+    },
+    "saved": {
+      "sl-zuri-solar-debt": {
+        "itemId": "sl-zuri-solar-debt",
+        "kind": "article",
+        "folderId": "f-energy",
+        "savedAt": {
+          "daysAgo": 1,
+          "hoursAgo": 0
+        },
+        "item": {
+          "sourceId": "savanna-ledger",
+          "sourceName": "Savanna Ledger",
+          "title": "Zuri Solar secures $25m local-currency debt for rooftop solar in Nigeria",
+          "url": "https://example.com/savanna-ledger/zuri-solar-debt",
+          "publishedAt": {
+            "daysAgo": 2,
+            "hoursAgo": 3
+          },
+          "tag": "Energy finance",
+          "country": "Nigeria",
+          "summary": "Fictional C&I solar developer Zuri Solar raises naira-denominated debt from a local bank consortium.",
+          "brief": {
+            "summary": "Zuri Solar has signed a $25m-equivalent naira debt facility with three Nigerian banks, backed by a partial guarantee from a development finance institution.\n\nThe facility funds about 60MW of rooftop systems for factories and shopping centres, priced in naira to remove currency risk for clients.",
+            "numbers": [
+              "$25m-equivalent naira facility",
+              "~60MW of rooftop capacity",
+              "50% partial credit guarantee",
+              "7-year tenor"
+            ],
+            "players": [
+              "Zuri Solar — developer",
+              "Three Nigerian banks — lenders",
+              "DFI guarantor — partial guarantee"
+            ],
+            "why": "Local-currency debt with a guarantee is becoming the template for distributed energy after naira volatility.",
+            "basis": "full"
+          }
+        }
+      },
+      "kc-fund-close": {
+        "itemId": "kc-fund-close",
+        "kind": "article",
+        "folderId": "f-pipeline",
+        "savedAt": {
+          "daysAgo": 2,
+          "hoursAgo": 0
+        },
+        "item": {
+          "sourceId": "kopje-capital",
+          "sourceName": "Kopje Capital Wire",
+          "title": "Acacia Growth Partners holds $210m final close for second Africa fund",
+          "url": "https://example.com/kopje-capital/acacia-fund-ii",
+          "publishedAt": {
+            "daysAgo": 3,
+            "hoursAgo": 3
+          },
+          "tag": "Private equity",
+          "country": "Pan-African",
+          "summary": "Fictional mid-market PE firm Acacia Growth Partners closes Fund II at $210m.",
+          "brief": {
+            "summary": "Acacia Growth Partners has closed its second fund at $210m, above its $175m target, with roughly half the capital from African pension funds and insurers.\n\nThe fund will write $10m to $30m cheques into healthcare, consumer and business services.",
+            "numbers": [
+              "$210m final close",
+              "$175m target",
+              "~50% African LPs",
+              "$10–30m ticket size"
+            ],
+            "players": [
+              "Acacia Growth Partners — GP",
+              "African pension funds — LPs",
+              "DFIs — anchor LPs"
+            ],
+            "why": "A rising share of local institutional money is the main change in African fundraising this year.",
+            "basis": "full"
+          }
+        }
+      }
+    },
+    "ideas": {
+      "idea-kilima": {
+        "name": "Kilima Pay: Series B debt alongside equity?",
+        "type": "opportunity",
+        "notes": "Fictional example idea. Merchant lending book could support a venture debt line at Series B.",
+        "steps": [
+          {
+            "id": "s1",
+            "text": "Map existing lenders",
+            "done": true
+          },
+          {
+            "id": "s2",
+            "text": "Ask for loan book data",
+            "done": false
+          }
+        ],
+        "itemId": "sl-kilima-pay-series-a",
+        "itemKind": "article",
+        "item": {
+          "sourceId": "savanna-ledger",
+          "sourceName": "Savanna Ledger",
+          "title": "Kilima Pay raises $18m Series A to expand merchant payments into Tanzania",
+          "url": "https://example.com/savanna-ledger/kilima-pay-series-a",
+          "publishedAt": {
+            "daysAgo": 0,
+            "hoursAgo": 3
+          },
+          "tag": "Venture",
+          "country": "Kenya",
+          "summary": "Fictional Kenyan payments start-up Kilima Pay closes an $18m Series A to enter Tanzania.",
+          "brief": {
+            "summary": "Kilima Pay, a (fictional) Nairobi-based merchant payments company, has closed an $18m Series A led by Mosi Ventures, with two development finance investors joining.\n\nThe company will use the money to launch in Tanzania early next year and to build a working-capital product for its 40,000 merchants.",
+            "numbers": [
+              "$18m Series A",
+              "40,000 active merchants",
+              "2 new markets planned within 18 months",
+              "Revenue up 2.4x year on year"
+            ],
+            "players": [
+              "Kilima Pay — payments start-up",
+              "Mosi Ventures — lead investor",
+              "Two DFIs — co-investors"
+            ],
+            "why": "Shows investors still backing payments businesses that can attach lending to transaction data.",
+            "basis": "full"
+          }
+        },
+        "createdAt": {
+          "daysAgo": 0,
+          "hoursAgo": 2
+        },
+        "updatedAt": {
+          "daysAgo": 0,
+          "hoursAgo": 1
+        }
+      }
+    },
+    "ideaTypes": {},
+    "reads": {
+      "bt-data-centre-lagos": {
+        "kind": "article",
+        "at": {
+          "daysAgo": 8,
+          "hoursAgo": 0
+        }
+      },
+      "nl-demo0005": {
+        "kind": "newsletter",
+        "at": {
+          "daysAgo": 7,
+          "hoursAgo": 0
+        }
+      }
+    },
+    "meta": {
+      "feed": {
+        "lastRefresh": {
+          "daysAgo": 0,
+          "hoursAgo": 5
+        },
+        "status": "done",
+        "added": {
+          "articles": 4,
+          "newsletters": 2
+        },
+        "removed": 3,
+        "note": ""
+      }
+    }
+  },
+  "emails": {
+    "demo0001": {
+      "subject": "Rand rallies on rate hopes",
+      "htmlBody": "<div><h3>The rand</h3><p>The currency gained about one percent against the dollar as traders priced in a rate cut next quarter. Bond yields fell across the curve, and foreign buyers returned to local government debt for a second week.</p><h3>Retail results</h3><p>A large grocery chain reported higher half-year sales, helped by its private-label range, but margins narrowed because of promotions and higher electricity costs. Management kept its dividend unchanged.</p><h3>Ports</h3><p>Waiting times at the main container terminal fell for a third straight week after new cranes came into service. Shipping lines said they would review congestion surcharges if the improvement holds.</p><p>Unsubscribe · Preferences</p></div>",
+      "plaintextBody": "The rand\nThe currency gained about one percent against the dollar as traders priced in a rate cut next quarter. Bond yields fell across the curve, and foreign buyers returned to local government debt for a second week.\n\nRetail results\nA large grocery chain reported higher half-year sales, helped by its private-label range, but margins narrowed because of promotions and higher electricity costs. Management kept its dividend unchanged.\n\nPorts\nWaiting times at the main container terminal fell for a third straight week after new cranes came into service. Shipping lines said they would review congestion surcharges if the improvement holds."
+    },
+    "demo0002": {
+      "subject": "Dealmaker's log: five fund closes and a solar refinancing",
+      "htmlBody": "<div><h3>Fund closes</h3><p>Five funds announced closes this week. The largest was a $210m mid-market buyout fund that beat its target, with about half of the money coming from African pension funds and insurers.</p><h3>Credit</h3><p>A rooftop solar developer signed a naira-denominated facility with three local banks, backed by a partial guarantee. Pricing in local currency removes currency risk for its factory and mall customers.</p><h3>Venture</h3><p>Payments and agritech led early-stage rounds. A Nairobi payments company raised an $18m Series A, and a Ghanaian input-credit lender closed a $3.2m seed round.</p><p>Unsubscribe · Preferences</p></div>",
+      "plaintextBody": "Fund closes\nFive funds announced closes this week. The largest was a $210m mid-market buyout fund that beat its target, with about half of the money coming from African pension funds and insurers.\n\nCredit\nA rooftop solar developer signed a naira-denominated facility with three local banks, backed by a partial guarantee. Pricing in local currency removes currency risk for its factory and mall customers.\n\nVenture\nPayments and agritech led early-stage rounds. A Nairobi payments company raised an $18m Series A, and a Ghanaian input-credit lender closed a $3.2m seed round."
+    },
+    "demo0003": {
+      "subject": "Budget season and the eurobond question",
+      "htmlBody": "<div><h3>Budgets</h3><p>Two finance ministers tabled budgets that aim to narrow deficits through spending restraint and better tax collection. Both rely on higher commodity revenues that could prove optimistic.</p><h3>Debt</h3><p>Officials signalled a possible return to international bond markets next year if spreads keep narrowing. Local banks remain the main buyers of government paper in the meantime.</p><h3>Commodities</h3><p>Cocoa prices stayed well above last year's levels, supporting export earnings, although smuggling across borders continues to reduce official volumes.</p><p>Unsubscribe · Preferences</p></div>",
+      "plaintextBody": "Budgets\nTwo finance ministers tabled budgets that aim to narrow deficits through spending restraint and better tax collection. Both rely on higher commodity revenues that could prove optimistic.\n\nDebt\nOfficials signalled a possible return to international bond markets next year if spreads keep narrowing. Local banks remain the main buyers of government paper in the meantime.\n\nCommodities\nCocoa prices stayed well above last year's levels, supporting export earnings, although smuggling across borders continues to reduce official volumes."
+    },
+    "demo0004": {
+      "subject": "Insurers turn to infrastructure",
+      "htmlBody": "<div><h3>Insurers</h3><p>Several large insurers said they would raise their allocations to unlisted infrastructure, citing long-dated cash flows that match their liabilities. Renewable energy and toll roads are the first targets.</p><h3>Telecoms</h3><p>A proposed merger between two mobile operators is waiting on competition approval. The regulator has asked for more detail on spectrum holdings and tower-sharing arrangements before it decides.</p><p>Unsubscribe · Preferences</p></div>",
+      "plaintextBody": "Insurers\nSeveral large insurers said they would raise their allocations to unlisted infrastructure, citing long-dated cash flows that match their liabilities. Renewable energy and toll roads are the first targets.\n\nTelecoms\nA proposed merger between two mobile operators is waiting on competition approval. The regulator has asked for more detail on spectrum holdings and tower-sharing arrangements before it decides."
+    },
+    "demo0005": {
+      "subject": "Essay: why local LPs are changing African fundraising",
+      "htmlBody": "<div><h3>The shift</h3><p>African pension funds and insurers are committing more money to local private funds, helped by rule changes that let them hold more unlisted assets. In several recent closes they provided close to half of all commitments.</p><h3>Why it matters</h3><p>Local capital reduces fund managers' reliance on development finance institutions and changes the terms they negotiate. It also brings demand for currency-hedged share classes and more frequent reporting.</p><p>Unsubscribe · Preferences</p></div>",
+      "plaintextBody": "The shift\nAfrican pension funds and insurers are committing more money to local private funds, helped by rule changes that let them hold more unlisted assets. In several recent closes they provided close to half of all commitments.\n\nWhy it matters\nLocal capital reduces fund managers' reliance on development finance institutions and changes the terms they negotiate. It also brings demand for currency-hedged share classes and more frequent reporting."
+    }
+  },
+  "refreshQueue": [
+    {
+      "id": "sl-demo-refresh-item",
+      "data": {
+        "sourceId": "savanna-ledger",
+        "sourceName": "Savanna Ledger",
+        "title": "Refresh demo: new mobile-money interoperability rules announced",
+        "url": "https://example.com/savanna-ledger/refresh-demo-item",
+        "publishedAt": {
+          "daysAgo": 0,
+          "hoursAgo": 3
+        },
+        "tag": "Regulation",
+        "country": "Pan-African",
+        "summary": "Added by the demo Refresh button to show how new items arrive.",
+        "brief": {
+          "summary": "This fictional story appears when you tap the refresh stamp, to show how a new item arrives unread at the top of the feed.\n\nIn the real app, a Claude task checks every source, writes a briefing for each new article and removes items older than 14 days.",
+          "numbers": [
+            "1 new article per demo refresh"
+          ],
+          "players": [
+            "Demo runtime — simulated refresh"
+          ],
+          "why": "Illustrates the refresh flow only.",
+          "basis": "full"
+        }
+      }
+    }
+  ]
+}
